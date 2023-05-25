@@ -9,11 +9,25 @@
     <style>
 
     h1 {font-size: 65px;
-        color: orange;}
+        color: orange;
+        font-family: sans-serif;
+        text-align: center;}
 
-    ul {background-color: aqua;}
+    ul {background-color: aqua;
+        line-height: 30px;}
 
     .bg {background-color: gray;}
+
+    p {font-weight: 600;
+        font-size: 3em;
+        font-style: oblique;}
+
+    body {font-size: 16px;}
+
+    .riscado {text-decoration: line-through;}
+    #red {background-color: red;}
+    #yellow {background-color: yellow;}
+    #pink {background-color: pink;}
 
     </style>
 
@@ -25,9 +39,9 @@
     <p class="bg">Qual é a sua fruta favorita?</p>
 
     <ul class="bg">
-      <li>Maçã</li>
-      <li>Banana</li>
-      <li>Goiaba</li>
+      <li id="red" class="riscado">Maçã</li>
+      <li id="yellow">Banana</li>
+      <li id="pink" class="riscado">Goiaba</li>
     </ul>
 
   </body>
