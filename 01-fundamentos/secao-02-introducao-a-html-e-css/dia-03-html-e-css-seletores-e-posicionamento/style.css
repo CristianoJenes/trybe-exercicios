@@ -14,7 +14,12 @@
             left: 400px;}
   
   .speach { font-size: 25px;
-            position: absolute;}
+            position: absolute;
+            left: 420px;
+            top: 260px;
+            z-index: 1;}
   
   .bowser { width: 200px;
-            position: absolute;}
+            position: absolute;
+            left: 700px;
+            top: 370px}
